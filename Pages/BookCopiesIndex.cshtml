@@ -1,0 +1,52 @@
+﻿@page
+@model BookManagementSystem.Pages.BookCopies.BookCopiesIndexModel
+@{
+    ViewData["Title"] = "Index";
+}
+<h2>Index</h2>
+<p>
+    <a asp-page="BookCopies">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.bookcpy[0].id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.bookcpy[0].FK_Book)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.bookcpy[0].FK_Library)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.bookcpy[0].NumberOfCopies)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.bookcpy)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.id)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FK_Book)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FK_Library)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NumberOfCopies)
+                </td>
+                <td>
+                    <a asp-page="./EditBookCopies" asp-route-id="@item.id">Edit</a> |
+                    <a asp-page="./BookCopiesDetails" asp-route-id="@item.id">Details</a> |
+                    <a asp-page="./DeleteBookCopies" asp-route-id="@item.id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

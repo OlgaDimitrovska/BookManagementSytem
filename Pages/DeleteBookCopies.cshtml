@@ -1,0 +1,44 @@
+﻿@page
+@model BookManagementSystem.Pages.BookCopies.DeleteBookCopiesModel
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h2>Delete</h2>
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Book Copy</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.bookcp.id)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.bookcp.id)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.bookcp.FK_Book)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.bookcp.FK_Book)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.bookcp.NumberOfCopies)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.bookcp.NumberOfCopies)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.bookcp.FK_Library)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.bookcp.FK_Library)
+        </dd>
+    </dl>
+
+    <form method="post">
+        <input type="hidden" asp-for="bookcp.id" />
+        <input type="submit" value="Delete" class="btn btn-default" /> |
+        <a asp-page="./BookCopiesIndex">Back to List</a>
+    </form>
+</div>

@@ -1,0 +1,48 @@
+﻿@page
+@model BookManagementSystem.Pages.EditLendingModel
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h2>Edit</h2>
+<h4>Lending</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="lend.Id" />
+            <div class="form-group">
+                <label asp-for="lend.FK_Book" class="control-label"></label>
+                <input asp-for="lend.FK_Book" class="form-control" />
+                <span asp-validation-for="lend.FK_Book" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="lend.FK_Client" class="control-label"></label>
+                <input asp-for="lend.FK_Client" class="form-control" />
+                <span asp-validation-for="lend.FK_Client" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="lend.DatumVratena" class="control-label"></label>
+                <input asp-for="lend.DatumVratena" class="form-control" />
+                <span asp-validation-for="lend.DatumVratena" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="lend.DatumZajmuvanje" class="control-label"></label>
+                <input asp-for="lend.DatumZajmuvanje" class="form-control" />
+                <span asp-validation-for="lend.DatumZajmuvanje" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-default" />
+            </div>
+        </form>
+    </div>
+</div>
+<div>
+    <a asp-page="./LendingIndex">Back to List</a>
+</div>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    }

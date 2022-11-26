@@ -1,0 +1,48 @@
+﻿@page
+@model BookManagementSystem.Pages.Client.EditClientModel
+@{
+
+    ViewData["Title"] = "Edit";
+}
+<h2>Edit</h2>
+<h4>Client</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="client.id" />
+            <div class="form-group">
+                <label asp-for="client.Name" class="control-label"></label>
+                <input asp-for="client.Name" class="form-control" />
+                <span asp-validation-for="client.Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="client.Phone" class="control-label"></label>
+                <input asp-for="client.Phone" class="form-control" />
+                <span asp-validation-for="client.Phone" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="client.Address" class="control-label"></label>
+                <input asp-for="client.Address" class="form-control" />
+                <span asp-validation-for="client.Address" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="client.City" class="control-label"></label>
+                <input asp-for="client.City" class="form-control" />
+                <span asp-validation-for="client.City" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-default" />
+            </div>
+        </form>
+    </div>
+</div>
+<div>
+    <a asp-page="./ClientIndex">Back to List</a>
+</div>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    }

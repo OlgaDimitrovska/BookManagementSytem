@@ -1,0 +1,29 @@
+﻿@page
+@model BookManagementSystem.Pages.Books.BookDetailsModel
+@{
+
+    ViewData["Title"] = "Details";
+}
+
+<div>
+    <h4>Book</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.book.Title)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.book.YearOfIssue)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.book.NumberOfPages)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.book.FK_Publisher)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-page="./EditBook" asp-route-id="@Model.book.id">Edit</a> |
+    <a asp-page="./BookIndex">Back to List</a>
+</div>

@@ -1,0 +1,34 @@
+﻿@page
+@model BookManagementSystem.Pages.BookCopies.BookCopiesDetailsModel
+@{
+    ViewData["Title"] = "Details";
+}
+
+<div>
+    <h4>Book Copies</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.book.FK_Book)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.book.FK_Book)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.book.FK_Library)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.book.FK_Library)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.book.NumberOfCopies)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.book.NumberOfCopies)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-page="./EditBookCopies" asp-route-id="@Model.book.id">Edit</a> |
+    <a asp-page="./BookCopiesIndex">Back to List</a>
+</div>

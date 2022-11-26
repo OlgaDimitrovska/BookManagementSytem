@@ -1,0 +1,45 @@
+﻿@page
+@model BookManagementSystem.Pages.BookCopies.EditBookCopiesModel
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h2>Edit</h2>
+<h4>Book Copies</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="book.id" />
+            <div class="form-group">
+                <label asp-for="book.FK_Book" class="control-label"></label>
+                <input asp-for="book.FK_Book" class="form-control" />
+                <span asp-validation-for="book.FK_Book" class="text-danger"></span>
+            </div>
+           
+            <div class="form-group">
+                <label asp-for="book.FK_Library" class="control-label"></label>
+                <input asp-for="book.FK_Library" class="form-control" />
+                <span asp-validation-for="book.FK_Library" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="book.NumberOfCopies" class="control-label"></label>
+                <input asp-for="book.NumberOfCopies" class="form-control" />
+                <span asp-validation-for="book.NumberOfCopies" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-default" />
+            </div>
+        </form>
+    </div>
+</div>
+<div>
+    <a asp-page="./BookCopiesIndex">Back to List</a>
+</div>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    }
+

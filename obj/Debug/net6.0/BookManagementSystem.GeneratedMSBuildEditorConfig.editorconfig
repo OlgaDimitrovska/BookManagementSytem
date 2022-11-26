@@ -1,0 +1,168 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = BookManagementSystem
+build_property.RootNamespace = BookManagementSystem
+build_property.ProjectDir = D:\DOTNET_PROJECTS\BookManagementSystem\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\DOTNET_PROJECTS\BookManagementSystem
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/DOTNET_PROJECTS/BookManagementSystem/Pages/Book.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQm9vay5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DOTNET_PROJECTS/BookManagementSystem/Pages/BookCopies.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQm9va0NvcGllcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DOTNET_PROJECTS/BookManagementSystem/Pages/BookCopiesDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQm9va0NvcGllc0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DOTNET_PROJECTS/BookManagementSystem/Pages/BookCopiesIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQm9va0NvcGllc0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DOTNET_PROJECTS/BookManagementSystem/Pages/BookDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQm9va0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DOTNET_PROJECTS/BookManagementSystem/Pages/BookIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQm9va0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DOTNET_PROJECTS/BookManagementSystem/Pages/Client.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DOTNET_PROJECTS/BookManagementSystem/Pages/ClientDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50RGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DOTNET_PROJECTS/BookManagementSystem/Pages/ClientIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50SW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DOTNET_PROJECTS/BookManagementSystem/Pages/DeleteBook.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVsZXRlQm9vay5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DOTNET_PROJECTS/BookManagementSystem/Pages/DeleteBookCopies.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVsZXRlQm9va0NvcGllcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DOTNET_PROJECTS/BookManagementSystem/Pages/DeleteClient.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVsZXRlQ2xpZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DOTNET_PROJECTS/BookManagementSystem/Pages/DeleteLending.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVsZXRlTGVuZGluZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DOTNET_PROJECTS/BookManagementSystem/Pages/DeleteLibrary.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVsZXRlTGlicmFyeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DOTNET_PROJECTS/BookManagementSystem/Pages/DeletePublisher.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVsZXRlUHVibGlzaGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DOTNET_PROJECTS/BookManagementSystem/Pages/EditBook.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdEJvb2suY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DOTNET_PROJECTS/BookManagementSystem/Pages/EditBookCopies.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdEJvb2tDb3BpZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DOTNET_PROJECTS/BookManagementSystem/Pages/EditClient.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdENsaWVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DOTNET_PROJECTS/BookManagementSystem/Pages/EditLending.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdExlbmRpbmcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DOTNET_PROJECTS/BookManagementSystem/Pages/EditLibrary.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdExpYnJhcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DOTNET_PROJECTS/BookManagementSystem/Pages/EditPublisher.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdFB1Ymxpc2hlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DOTNET_PROJECTS/BookManagementSystem/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DOTNET_PROJECTS/BookManagementSystem/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DOTNET_PROJECTS/BookManagementSystem/Pages/Lending.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGVuZGluZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DOTNET_PROJECTS/BookManagementSystem/Pages/LendingDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGVuZGluZ0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DOTNET_PROJECTS/BookManagementSystem/Pages/LendingIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGVuZGluZ0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DOTNET_PROJECTS/BookManagementSystem/Pages/Library.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGlicmFyeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DOTNET_PROJECTS/BookManagementSystem/Pages/LibraryDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGlicmFyeURldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DOTNET_PROJECTS/BookManagementSystem/Pages/LibraryIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGlicmFyeUluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DOTNET_PROJECTS/BookManagementSystem/Pages/NotReturned.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTm90UmV0dXJuZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DOTNET_PROJECTS/BookManagementSystem/Pages/Publisher.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHVibGlzaGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DOTNET_PROJECTS/BookManagementSystem/Pages/PublisherDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHVibGlzaGVyRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DOTNET_PROJECTS/BookManagementSystem/Pages/PublisherIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHVibGlzaGVySW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DOTNET_PROJECTS/BookManagementSystem/Pages/Returned.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmV0dXJuZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DOTNET_PROJECTS/BookManagementSystem/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DOTNET_PROJECTS/BookManagementSystem/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DOTNET_PROJECTS/BookManagementSystem/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DOTNET_PROJECTS/BookManagementSystem/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-nzcwm993ls

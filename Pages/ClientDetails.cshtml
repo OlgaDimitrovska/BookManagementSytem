@@ -1,0 +1,39 @@
+﻿@page
+@model BookManagementSystem.Pages.Client.ClientDetailsModel
+@{
+}
+
+<div>
+    <h4>Employee</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.client.Name)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.client.Name)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.client.Phone)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.client.Phone)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.client.Address)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.client.Address)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.client.City)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.client.City)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-page="./EditClient" asp-route-id="@Model.client.id">Edit</a> |
+    <a asp-page="./ClientIndex">Back to List</a>
+</div>
